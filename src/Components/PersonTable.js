@@ -10,7 +10,7 @@ const PersonTable = () => {
   const apiUrl = 'http://localhost:5255/api/persons'; 
 
   const fetchPersons = async () => {
-    setLoading(true);
+    setLoading(true); 
     setError('');
 
     try {
